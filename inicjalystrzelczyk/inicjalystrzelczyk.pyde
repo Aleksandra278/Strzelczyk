@@ -32,15 +32,14 @@ def draw():
     if a == "FFF0B40A":
         fill(70, 230, 10)
         text("A", width/2-50, height/2)
-        
+#brakuje obsługi strzałek
+
     fill(240, 180, 10)
     text("S", width/2+10, height/2)
-    a = (hex(get(mouseX, mouseY)))
-    if key == "s" and keyPressed:
+    if keyPressed and key == "s":
         fill(70, 230, 10)
-        text("S", width/2+10, height/2) 
-                 # proszę o wyrozumiałość, w stusunku do mnie i Aleksandry Sierhej, ponieważ obie komunikujemy się jeśli chodzi o wykonywanie zadań, dlatego niektóre aspekty mogą być identyczne. Pozdrawiam cielputko
+        text("S", width/2+10, height/2)
+        
+#1,25p
 
-    
-  
     
