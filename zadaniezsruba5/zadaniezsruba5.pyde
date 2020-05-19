@@ -1,6 +1,3 @@
-import random
-add_library('pdf')
-    
 class Nos(): 
     uderz = 0 
     def __init__(self, arg_x, arg_y, arg_r):
@@ -26,7 +23,7 @@ class Nos():
 def setup():
     size(400, 400) 
     global nos 
-    nos = Nos(width/2, height/2, 50)
+    nos = Nos(width/2, height/2, 50) # miały być dwa obiekty
         
 def mouseClicked(): 
     nos.kliknij()
@@ -53,5 +50,9 @@ def draw():
     screw.endShape(CLOSE) 
     shape(screw, 50, 80)
     nos.rysuj() 
-    print(Nos.uderz)  
+    print(Nos.uderz)
+    
+#trochę dodane, ale wciąż dosyć mocno wzorowane na moim kodzie, metody i atrybuty właściwie te same
+# 1,25pkt
+
     
