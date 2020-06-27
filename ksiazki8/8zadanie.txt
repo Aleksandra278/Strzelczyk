@@ -1,0 +1,16 @@
+Nazwa klasy: ATM
+atrybut klasy: stan_konta 
+atrybut: stan_konta 
+metoda: wypłać_środki
+metoda: wpłać_środki
+metoda: wybierz_kwote
+metoda: sprawdź stan_konta 
+metoda: sprawdź _pin
+metoda: wydrukuj_potwierdzenie
+Nazwa klasy: Customer
+metoda: wypłać_pieniądze
+metoda: wpłać_pieniądze
+metoda: wprowadź_pin
+metoda: włóż_kartę
+metoda: odbierz_kartę
+
