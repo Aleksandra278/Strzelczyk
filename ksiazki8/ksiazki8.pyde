@@ -57,4 +57,5 @@ def mouseClicked():
             library.lendBook(Aleksandra.requestBook("Czerwone Dziewczyny"))
         if mouseY >40 and mouseY <60:
             library.addBook(Aleksandra.returnBook())
+# 0,5/0,5pkt za tą część
         
