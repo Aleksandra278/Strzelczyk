@@ -61,7 +61,7 @@ def mouseClicked():
             
             
 class Testy(unittest.TestCase):
-    def test_wypozyczenie_ksiazki_z_biblioteki(self):
+    def test_wypozyczenie_ksiazki_z_biblioteki(self): # to by należało rozdzielić nawet na 3 testy, unittesty powinny zawierać najmniejszy możłiwy do przetestowania fragment ;)
         library = Library(["Pan Tadeusz", "W pustyni i w puszczy"])
         self.assertEqual(library.availableBooks, ["Pan Tadeusz", "W pustyni i w puszczy"])
         library.lendBook("Pan Tadeusz")
@@ -78,3 +78,5 @@ class Testy(unittest.TestCase):
         
 if __name__ == '__main__':
     unittest.main()
+    
+# 2pkt
