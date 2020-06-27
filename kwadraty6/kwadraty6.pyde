@@ -6,7 +6,7 @@ class Kwadrat():
         self.y = y
         rect(self.x, self.y, self.bok, self.bok)
         
-class Kwadracik(Kwadrat):
+class Kwadracik(Kwadrat): # miałą być nowa klasa, nie zastępowana stara
     def rysujObiekt(self,x,y):
         self.sketch(x,y)
     def paski(self, x, y, paski):
@@ -16,7 +16,7 @@ class Kwadracik(Kwadrat):
             line(x+xLinii, y, x+xLinii, y+self.bok)
             xLinii +=przestrzen
     def malujkwadrat(self,a,b,c):
-        fill(a,b,c)
+        fill(a,b,c)# bez powrotu do starego koloru na końcu metody każda następnie rysowna rzecz będzie miała ten kolor
         
 def setup():
     size(140,150)
@@ -28,4 +28,5 @@ def setup():
     duzyKwadracik=Kwadracik(60)
     duzyKwadracik.malujkwadrat(0,0,0)
     duzyKwadracik.rysujObiekt(60,40)
-    
+
+# 1pkt
